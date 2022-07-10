@@ -10,7 +10,9 @@ import org.junit.runner.RunWith;
         features = "src/main/resources/features/",
         glue = "stepdefinitions",
         dryRun = false,
+        tags = "",
         plugin = {"pretty", "html:target/uiReport.html", "rerun:target/uiFailedTests.txt"}
 )
+
 public class Runner {
 }
